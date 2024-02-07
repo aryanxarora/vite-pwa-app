@@ -12,8 +12,8 @@ const manifestPWA: Partial<VitePWAOptions> = {
     "short_name": "vite-pwa-app",
     "display": "standalone",
     "start_url": "/",
-    "theme_color": "#000000",
-    "background_color": "#000000",    
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",    
     "description": "desc",
     "icons": [
         {
