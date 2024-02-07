@@ -8,6 +8,7 @@ const Start = () => {
         <li>TypeScript</li>
         <li>Tailwind CSS</li>
         <li>Redux</li>
+        <li>React Router</li>
       </ul>
     </div>
   )
