@@ -35,7 +35,13 @@ const manifestPWA: Partial<VitePWAOptions> = {
             "src": "/icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
-        }
+        },
+        {
+            "src": "/maskable_icon_x192",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
     ],
     "categories": ["education", "productivity"],
   }
