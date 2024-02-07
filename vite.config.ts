@@ -6,44 +6,57 @@ const manifestPWA: Partial<VitePWAOptions> = {
   registerType: "prompt",
   includeAssets: ["vite.svg"],
   manifest: {
-    "id": "vite-pwa-app",
-    "scope": "/",
     "name": "vite-pwa-app",
     "short_name": "vite-pwa-app",
-    "display": "standalone",
     "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "scope": "/",
+    "id": "vite-pwa-app",
     "theme_color": "#ffffff",
-    "background_color": "#ffffff",    
     "description": "desc",
     "icons": [
-        {
-            "src": "/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "/maskable_icon_x192",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
+      {
+        "src": "/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/maskable_icon_x192",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
     ],
-    "categories": ["education", "productivity"],
+    "categories": [
+      "productivity",
+      "utilities"
+    ],
+    "orientation": "portrait",
+    "display_override": [
+      "standalone",
+      "fullscreen",
+      "window-controls-overlay",
+      "minimal-ui",
+      "browser"
+    ]
   }
 }
 
