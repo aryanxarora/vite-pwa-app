@@ -1,4 +1,4 @@
-# Progress Web App Boilerplate
+# Progressive Web App (PWA) Boilerplate
 
 ### Installation
 ```sh
