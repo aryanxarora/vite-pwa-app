@@ -14,7 +14,7 @@ npm run dev
 - Redux
 - React Router
 
-## Documentation
+### Documentation
 
 - [Vite](https://vitejs.dev/guide/)
 - [TypeScript](https://www.typescriptlang.org/docs/)
